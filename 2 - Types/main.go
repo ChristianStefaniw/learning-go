@@ -7,16 +7,28 @@ Go's basic types
 
 -string
 
--int  int8  int16  int32  int64
--uint uint8 uint16 uint32 uint64 uintptr
+-int  int8  int16  int32  int64  ________________________________
+-uint uint8 uint16 uint32 uint64 uintptr						|
+																|
+-byte alias for uint8											|
+																|
+-rune alias for int32 - represents a Unicode code point			|
+																|
+-float32 float64												|
+																|
+-complex64 complex128											|
+																|
+																|
+																|
+Differences between integer types  <____________________________|
 
--byte alias for uint8
+ Type      Capacity
 
--rune alias for int32 - represents a Unicode code point
+   Int16 -- (-32,768 to +32,767)
 
--float32 float64
+   Int32 -- (-2,147,483,648 to +2,147,483,647)
 
--complex64 complex128
+   Int64 -- (-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
  */
 
 
