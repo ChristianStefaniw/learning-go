@@ -37,21 +37,9 @@ func main() {
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type: %T Value: %v\n", z, z)
 
-	fmt.Println("1+1 =", 1+1)
-	fmt.Println("7.0/3.0 =", 7.0/3.0)
-	fmt.Println(true && false)
-	fmt.Println(true || false)
-	fmt.Println(!true)
-
-
 	/*
 	Type: bool Value: false
 	Type: uint64 Value: 18446744073709551615
 	Type: complex128 Value: (2+3i)
-	1+1 = 2
-	7.0/3.0 = 2.3333333333333335
-	false
-	true
-	false
 	 */
 }
