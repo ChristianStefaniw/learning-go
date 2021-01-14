@@ -15,6 +15,13 @@ func main() {
 	b := [5]int{1,2,3,4,5}
 	fmt.Println("dcl:", b)
 
+	/*
+		... notation specifies a length equal to the number of elements in the literal.
+	 */
+	people := [...]string{"Bob", "Larry", "Joe"}
+	fmt.Println("len with '...': ", len(people))
+
+
 	var twoD [2][3]int
 	for i := 0; i < 2; i++{
 		for j := 0; j < 3; j++{
@@ -33,9 +40,11 @@ func main() {
 		output:
 			emp: [0 0 0 0 0]
 			set: [0 0 0 0 100]
-			get 100
-			len 5
+			get: 100
+			len: 5
 			dcl: [1 2 3 4 5]
+			len with '...':  3
 			2d: [[0 1 2] [1 2 3]]
-	 */
+
+	*/
 }
