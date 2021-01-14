@@ -25,8 +25,8 @@ func main() {
 	s = append(s, "e", "f")
 	fmt.Println("apd:", s)
 
-	c := make([]string, len(s))
-	copy(c, s)
+	c := make([]string, len(s)+5)
+	copy(c, s) //use copy to grow slice length
 	fmt.Println("cpy:", c)
 
 
@@ -76,7 +76,7 @@ func main() {
 			get: c
 			len: 3
 			apd: [a b c d e f]
-			cpy: [a b c d e f]
+			cpy: [a b c d e f     ]
 			sl1: [c d e]
 			sl2: [a b c d e]
 			sl3 [c d e f]
