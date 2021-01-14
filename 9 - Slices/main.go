@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+/*
+for future reference:
+	https://blog.golang.org/slices-intro
+ */
+
 func main() {
 	/*
 	make: used to initialize slices with a specific length (also other stuff like make channels)
