@@ -10,10 +10,9 @@ Go's basic types
 -int  int8  int16  int32  int64
 -uint uint8 uint16 uint32 uint64 uintptr
 
--byte // alias for uint8
+-byte alias for uint8
 
--rune // alias for int32
-     // represents a Unicode code point
+-rune alias for int32 - represents a Unicode code point
 
 -float32 float64
 
@@ -38,8 +37,9 @@ func main() {
 	fmt.Printf("Type: %T Value: %v\n", z, z)
 
 	/*
-	Type: bool Value: false
-	Type: uint64 Value: 18446744073709551615
-	Type: complex128 Value: (2+3i)
+	output:
+		Type: bool Value: false
+		Type: uint64 Value: 18446744073709551615
+		Type: complex128 Value: (2+3i)
 	 */
 }
