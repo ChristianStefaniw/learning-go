@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+create a TYPE called PERSON based on a struct of NAME string and AGE int
+"type" is used to create a new type
+ */
 type person struct {
 	name string
 	age int
