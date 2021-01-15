@@ -1,4 +1,4 @@
-EXERCISE
+## EXERCISE  
 Create a new library
 
 In it, create a function that returns Go version
@@ -14,5 +14,5 @@ Note: The dot below runs all the files in the current directory.
 go run . and so on.
 
 
-EXPECTED OUTPUT
+## EXPECTED OUTPUT  
 It should print the current Go version on your system.
