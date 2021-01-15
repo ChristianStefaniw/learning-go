@@ -21,13 +21,16 @@ func (r rect) perim() int {
 func main() {
 	r := rect{width: 10, height: 5}
 
+
+	/*
+		Go automatically handles conversion between values and pointers for method calls.
+	*/
+
+
 	fmt.Println("area:", r.area())
 	fmt.Println("perim", r.perim())
 
 
-	/*
-	Go automatically handles conversion between values and pointers for method calls.
-	 */
 	rp := &r
 	fmt.Println("area:", rp.area())
 	fmt.Println("perim:", rp.perim())
