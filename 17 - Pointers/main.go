@@ -7,6 +7,10 @@ func zeroVal(ival int)  {
 }
 
 func zeroPtr(iptr *int)  {
+	/*
+	dereferences the pointer from its memory address to the current value at that address
+	Assigning a value to a dereferenced pointer changes the value at the referenced address.
+	 */
 	*iptr = 0
 }
 
