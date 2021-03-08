@@ -1,8 +1,8 @@
 package main
 
 import (
+	"../../library_package_exercises"
 	"fmt"
-	"github.com/christianstefaniw/learning-go/course/library_package_exercises"
 )
 
 func main() {
